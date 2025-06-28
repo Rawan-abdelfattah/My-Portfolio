@@ -696,10 +696,10 @@
                               data-aos="fade-up"
                               data-aos-delay="50"
                               data-aos-once="true"
-                              class="col-lg-6 col-xl-4 col-md-6 col-12 mt--30 mt_md--30 mt_sm--30"
+                              class="col-lg-6 col-xl-6 col-md-6 col-12 mt--30 mt_md--30 mt_sm--30"
                             >
                               <div
-                                class="rn-portfolio"
+                                class="rn-portfolio w-100"
                                 data-bs-toggle="modal"
                                 data-bs-target="#boitrModal"
                               >
@@ -738,10 +738,10 @@
                               data-aos="fade-up"
                               data-aos-delay="100"
                               data-aos-once="true"
-                              class="col-lg-6 col-xl-4 col-md-6 col-12 mt--30 mt_md--30 mt_sm--30"
+                              class="col-lg-6 col-xl-6 col-md-6 col-12 mt--30 mt_md--30 mt_sm--30"
                             >
                               <div
-                                class="rn-portfolio"
+                                class="rn-portfolio w-100"
                                 data-bs-toggle="modal"
                                 data-bs-target="#ecomboModal"
                               >
@@ -783,7 +783,7 @@
                               class="col-lg-6 col-xl-4 col-md-6 col-12 mt--30 mt_md--30 mt_sm--30"
                             >
                               <div
-                                class="rn-portfolio"
+                                class="rn-portfolio w-100"
                                 data-bs-toggle="modal"
                                 data-bs-target="#ticTacToeModal"
                               >
@@ -793,6 +793,7 @@
                                       <img
                                         src="images/xo.png"
                                         alt="Online Tic-Tac-Toe Game"
+                                        width="100%"
                                         style="height: 190px; object-fit: fill"
                                       />
                                     </a>
@@ -825,7 +826,7 @@
                               class="col-lg-6 col-xl-4 col-md-6 col-12 mt--30 mt_md--30 mt_sm--30"
                             >
                               <div
-                                class="rn-portfolio"
+                                class="rn-portfolio w-100"
                                 data-bs-toggle="modal"
                                 data-bs-target="#medicalModal"
                               >
@@ -867,7 +868,7 @@
                               class="col-lg-6 col-xl-4 col-md-6 col-12 mt--30 mt_md--30 mt_sm--30"
                             >
                               <div
-                                class="rn-portfolio"
+                                class="rn-portfolio w-100 "
                                 data-bs-toggle="modal"
                                 data-bs-target="#educationalModal"
                               >
@@ -938,46 +939,55 @@
       role="dialog"
       aria-hidden="true"
     >
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content border-0 shadow-lg">
+          <div class="modal-header border-0 pb-0">
             <button
               type="button"
-              class="close"
+              class="btn-close"
               data-bs-dismiss="modal"
               aria-label="Close"
-            >
-              <span aria-hidden="true"><i data-feather="x"></i></span>
-            </button>
+            ></button>
           </div>
-          <div class="modal-body">
-            <div class="row align-items-center">
+          <div class="modal-body p-4">
+            <div class="row align-items-center g-4">
               <div class="col-lg-6">
-                <div class="portfolio-popup-thumbnail">
-                  <div class="image">
+                <div class="portfolio-popup-thumbnail position-relative">
+                  <div class="image overflow-hidden rounded-3 shadow">
                     <img
-                      class="w-100 h-100"
+                      class="w-100 h-100 object-fit-cover"
                       src="images/boitr.png"
                       alt="Boitr Frontend Development"
+                      style="height: 300px;"
                     />
+                    <div class=""></div>
                   </div>
                 </div>
               </div>
 
               <div class="col-lg-6">
                 <div class="text-content">
-                  <h3>
-                    <span>Frontend Development</span> Frontend Developer at
-                    Boitr
+                  <div class="mb-3">
+                    <span class="badge bg-primary bg-gradient rounded-pill px-3 py-2 mb-3">Frontend Development</span>
+                  </div>
+                  <h3 class="fw-bold mb-3">
+                    Frontend Developer at Boitr
                   </h3>
-                  <p class="mb--30">
+                  <p class="text-muted mb-4 lh-lg">
                     I worked at Boitr as a frontend developer, where I built
                     fast and responsive user interfaces using React.js with the
                     Vite framework for efficient development and bundling.
                   </p>
-                  <div class="button-group mt--20">
-                    <span class="rn-btn">
-                      <span>PROFESSIONAL EXPERIENCE</span>
+                  <div class="d-flex flex-wrap gap-2 mb-4">
+                    <span class="badge bg-light text-dark border">React.js</span>
+                    <span class="badge bg-light text-dark border">Vite</span>
+                    <span class="badge bg-light text-dark border">JavaScript</span>
+                    <span class="badge bg-light text-dark border">CSS</span>
+                  </div>
+                  <div class="button-group mt-3 mr-3">
+                    <span class="btn btn-outline-success btn-sm px-4 py-2 rounded-pill">
+                      <i class="me-2" data-feather="briefcase"></i>
+                      PROFESSIONAL EXPERIENCE
                     </span>
                   </div>
                 </div>
@@ -999,39 +1009,41 @@
       role="dialog"
       aria-hidden="true"
     >
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content border-0 shadow-lg">
+          <div class="modal-header border-0 pb-0">
             <button
               type="button"
-              class="close"
+              class="btn-close"
               data-bs-dismiss="modal"
               aria-label="Close"
-            >
-              <span aria-hidden="true"><i data-feather="x"></i></span>
-            </button>
+            ></button>
           </div>
-          <div class="modal-body">
-            <div class="row align-items-center">
+          <div class="modal-body p-4">
+            <div class="row align-items-center g-4">
               <div class="col-lg-6">
-                <div class="portfolio-popup-thumbnail">
-                  <div class="image">
+                <div class="portfolio-popup-thumbnail position-relative">
+                  <div class="image overflow-hidden rounded-3 shadow">
                     <img
-                      class="w-100 h-100"
+                      class="w-100 h-100 object-fit-cover"
                       src="images/Ecombo.png"
                       alt="Ecombo Platform"
+                      style="height: 300px;"
                     />
+                    <div class=""></div>
                   </div>
                 </div>
               </div>
 
               <div class="col-lg-6">
                 <div class="text-content">
-                  <h3>
-                    <span>E-Commerce</span> Ecombo: Revolutionizing Drop
-                    Shipping
+                  <div class="mb-3">
+                    <span class="badge bg-warning bg-gradient rounded-pill px-3 py-2 mb-3">E-Commerce</span>
+                  </div>
+                  <h3 class="fw-bold mb-3">
+                    Ecombo: Revolutionizing Drop Shipping
                   </h3>
-                  <p class="mb--30">
+                  <p class="text-muted mb-4 lh-lg">
                     Leading drop shipping platform catering to businesses in
                     Saudi Arabia and the United Arab Emirates. Developed
                     innovative solutions that streamline the e-commerce
@@ -1041,9 +1053,16 @@
                     distribution system, enabling entrepreneurs to scale their
                     online stores without the hassle of inventory management.
                   </p>
-                  <div class="button-group mt--20">
-                    <span class="rn-btn">
-                      <span>PROJECT IN PROGRESS</span>
+                  <div class="d-flex flex-wrap gap-2 mb-4">
+                    <span class="badge bg-light text-dark border">E-Commerce</span>
+                    <span class="badge bg-light text-dark border">Drop Shipping</span>
+                    <span class="badge bg-light text-dark border">Logistics</span>
+                    <span class="badge bg-light text-dark border">UAE & KSA</span>
+                  </div>
+                  <div class="button-group mt-3 mr-3 ">
+                    <span class="btn btn-outline-warning btn-sm px-4 py-2 rounded-pill">
+                      <i class="me-2" data-feather="clock"></i>
+                      PROJECT IN PROGRESS
                     </span>
                   </div>
                 </div>
@@ -1064,36 +1083,39 @@
       role="dialog"
       aria-hidden="true"
     >
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content border-0 shadow-lg">
+          <div class="modal-header border-0 pb-0">
             <button
               type="button"
-              class="close"
+              class="btn-close"
               data-bs-dismiss="modal"
               aria-label="Close"
-            >
-              <span aria-hidden="true"><i data-feather="x"></i></span>
-            </button>
+            ></button>
           </div>
-          <div class="modal-body">
-            <div class="row align-items-center">
+          <div class="modal-body p-4">
+            <div class="row align-items-center g-4">
               <div class="col-lg-6">
-                <div class="portfolio-popup-thumbnail">
-                  <div class="image">
+                <div class="portfolio-popup-thumbnail position-relative">
+                  <div class="image overflow-hidden rounded-3 shadow">
                     <img
-                      class="w-100"
+                      class="w-100 h-100 object-fit-cover"
                       src="images/xo.png"
                       alt="Tic-Tac-Toe Game"
+                      style="height: 300px;"
                     />
+                    <div class=""></div>
                   </div>
                 </div>
               </div>
 
               <div class="col-lg-6">
                 <div class="text-content">
-                  <h3><span>Game Development</span> Online Tic-Tac-Toe Game</h3>
-                  <p class="mb--30">
+                  <div class="mb-3">
+                    <span class="badge bg-info bg-gradient rounded-pill px-3 py-2 mb-3">Game Development</span>
+                  </div>
+                  <h3 class="fw-bold mb-3">Online Tic-Tac-Toe Game</h3>
+                  <p class="text-muted mb-4 lh-lg">
                     Built using Next.js, Nest.js, TypeScript, Node.js,
                     Express.js, Socket.IO and MongoDB. Features: Real-time
                     Multiplayer gameplay with dynamic real-time matches via
@@ -1103,9 +1125,17 @@
                     immerse users in the gaming atmosphere with dynamic audio
                     cues for each move and victory.
                   </p>
-                  <div class="button-group mt--20">
-                    <span class="rn-btn">
-                      <span>PRIVATE PROJECT</span>
+                  <div class="d-flex flex-wrap gap-2 mb-4">
+                    <span class="badge bg-light text-dark border">Next.js</span>
+                    <span class="badge bg-light text-dark border">Nest.js</span>
+                    <span class="badge bg-light text-dark border">TypeScript</span>
+                    <span class="badge bg-light text-dark border">Socket.IO</span>
+                    <span class="badge bg-light text-dark border">MongoDB</span>
+                  </div>
+                  <div class="button-group mt-3 mr-3 ">
+                    <span class="btn btn-outline-info btn-sm px-4 py-2 rounded-pill">
+                      <i class="me-2" data-feather="lock"></i>
+                      PRIVATE PROJECT
                     </span>
                   </div>
                 </div>
@@ -1127,46 +1157,56 @@
       role="dialog"
       aria-hidden="true"
     >
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content border-0 shadow-lg">
+          <div class="modal-header border-0 pb-0">
             <button
               type="button"
-              class="close"
+              class="btn-close"
               data-bs-dismiss="modal"
               aria-label="Close"
-            >
-              <span aria-hidden="true"><i data-feather="x"></i></span>
-            </button>
+            ></button>
           </div>
-          <div class="modal-body">
-            <div class="row align-items-center">
+          <div class="modal-body p-4">
+            <div class="row align-items-center g-4">
               <div class="col-lg-6">
-                <div class="portfolio-popup-thumbnail">
-                  <div class="image">
+                <div class="portfolio-popup-thumbnail position-relative">
+                  <div class="image overflow-hidden rounded-3 shadow">
                     <img
-                      class="w-100"
+                      class="w-100 h-100 object-fit-cover"
                       src="images/drahmed.jpg"
                       alt="Medical Website"
+                      style="height: 300px;"
                     />
+                    <div class=""></div>
                   </div>
                 </div>
               </div>
 
               <div class="col-lg-6">
                 <div class="text-content">
-                  <h3>
-                    <span>Healthcare</span> Dr. Ahmed Galal Medical Website
+                  <div class="mb-3">
+                    <span class="badge bg-success bg-gradient rounded-pill px-3 py-2 mb-3">Healthcare</span>
+                  </div>
+                  <h3 class="fw-bold mb-3">
+                    Dr. Ahmed Galal Medical Website
                   </h3>
-                  <p class="mb--30">
+                  <p class="text-muted mb-4 lh-lg">
                     Technologies used: Next.js, Node.js, Express.js, MongoDB.
                     Developed specialized medical website tailored for doctors
                     to elevate online presence and streamline patient engagement
                     with modern web technologies and responsive design.
                   </p>
-                  <div class="button-group mt--20">
-                    <span class="rn-btn">
-                      <span>PRIVATE PROJECT</span>
+                  <div class="d-flex flex-wrap gap-2 mb-4">
+                    <span class="badge bg-light text-dark border">Next.js</span>
+                    <span class="badge bg-light text-dark border">Node.js</span>
+                    <span class="badge bg-light text-dark border">Express.js</span>
+                    <span class="badge bg-light text-dark border">MongoDB</span>
+                  </div>
+                  <div class="button-group mt-3 mr-3 ">
+                    <span class="btn btn-outline-success btn-sm px-4 py-2 rounded-pill">
+                      <i class="me-2" data-feather="lock"></i>
+                      PRIVATE PROJECT
                     </span>
                   </div>
                 </div>
@@ -1188,44 +1228,54 @@
       role="dialog"
       aria-hidden="true"
     >
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content border-0 shadow-lg">
+          <div class="modal-header border-0 pb-0">
             <button
               type="button"
-              class="close"
+              class="btn-close"
               data-bs-dismiss="modal"
               aria-label="Close"
-            >
-              <span aria-hidden="true"><i data-feather="x"></i></span>
-            </button>
+            ></button>
           </div>
-          <div class="modal-body">
-            <div class="row align-items-center">
+          <div class="modal-body p-4">
+            <div class="row align-items-center g-4">
               <div class="col-lg-6">
-                <div class="portfolio-popup-thumbnail">
-                  <div class="image">
+                <div class="portfolio-popup-thumbnail position-relative">
+                  <div class="image overflow-hidden rounded-3 shadow">
                     <img
-                      class="w-100"
+                      class="w-100 h-100 object-fit-cover"
                       src="images/sefAcademy.jpg"
                       alt="Educational Academy"
+                      style="height: 300px;"
                     />
+                    <div class=""></div>
                   </div>
                 </div>
               </div>
 
               <div class="col-lg-6">
                 <div class="text-content">
-                  <h3><span>Education</span> Educational Academy Website</h3>
-                  <p class="mb--30">
+                  <div class="mb-3">
+                    <span class="badge bg-danger bg-gradient rounded-pill px-3 py-2 mb-3">Education</span>
+                  </div>
+                  <h3 class="fw-bold mb-3">Educational Academy Website</h3>
+                  <p class="text-muted mb-4 lh-lg">
                     Technologies used: React.js, Node.js, Express.js, MongoDB.
                     Comprehensive educational platform featuring job application
                     section, courses section, news section, and CV creation
                     section to serve educational and career development needs.
                   </p>
-                  <div class="button-group mt--20">
-                    <span class="rn-btn">
-                      <span>PRIVATE PROJECT</span>
+                  <div class="d-flex flex-wrap gap-2 mb-4">
+                    <span class="badge bg-light text-dark border">React.js</span>
+                    <span class="badge bg-light text-dark border">Node.js</span>
+                    <span class="badge bg-light text-dark border">Express.js</span>
+                    <span class="badge bg-light text-dark border">MongoDB</span>
+                  </div>
+                  <div class="button-group mt-3 mr-3 ">
+                    <span class="btn btn-outline-danger btn-sm px-4 py-2 rounded-pill">
+                      <i class="me-2" data-feather="lock"></i>
+                      PRIVATE PROJECT
                     </span>
                   </div>
                 </div>
